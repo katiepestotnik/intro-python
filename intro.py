@@ -152,3 +152,7 @@ print(len("Tacos yay"))
 intro = 'what is up'
 print(intro[2])
 print(intro[-1]) #last item in sequence
+
+hellos = 25
+msg = "There are " + str(hellos) + " hellos"
+print(msg)
