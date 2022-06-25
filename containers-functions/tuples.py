@@ -34,8 +34,10 @@ print(name, age)
 #assign a slice of sequence to variable
 # starting index up to but not including second number
 #can be list, tuple 
+# slice [:]
 numbers = (1, 3, 4, 5)
 some_nums = numbers[2:4]
 print(some_nums)
 copy = numbers[0:]
 print(copy)
+

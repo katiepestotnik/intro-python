@@ -60,5 +60,9 @@ where_my_things_arecontainer = {
 for key, value in where_my_things_arecontainer.items():
     print(f'{key} is kept {value}.')
     
-
-
+#######
+#dictionary comprehensions
+#######
+katie = [('name', "katie"), ('age', 39)]
+katie_dictionary = {key[0]:key[1] for key in katie if key[0]=='name'}
+print(katie_dictionary)
